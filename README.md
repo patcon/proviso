@@ -18,6 +18,8 @@ Features
 
 - `vagrant-vbguest`: Ensures that [`Virtual Guest
 Additions`][vbox-guest-additions] are in sync.
+- Package manager (apt) caching between VM destroys via
+[`vagrant-cachier`][vagrant-cachier].
 
 Usage
 -----
@@ -46,3 +48,4 @@ of your terminal session by running:
 
 <!-- Links -->
    [vbox-guest-additions]: http://www.virtualbox.org/manual/ch04.html
+   [vagrant-cachier]: https://github.com/fgrehm/vagrant-cachier#readme
