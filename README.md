@@ -12,6 +12,12 @@ For more information, please check the [Wiki](https://github.com/proviso/proviso
 
 To participate, see [contributing](https://github.com/proviso/proviso/blob/master/CONTRIBUTING.md).
 
+Features
+--------
+
+- `vagrant-vbguest`: Ensures that [`Virtual Guest
+Additions`][vbox-guest-additions] are in sync.
+
 Usage
 -----
 
@@ -36,3 +42,6 @@ command, you may also export this environment variable for the remainder
 of your terminal session by running:
 
     export PROVISO_PROVISIONER=puppet
+
+<!-- Links -->
+   [vbox-guest-additions]: http://www.virtualbox.org/manual/ch04.html
