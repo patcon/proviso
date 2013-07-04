@@ -5,4 +5,7 @@ run_list([
   "role[mysql]",
 ])
 default_attributes({
+  :apache => {
+    :default_site_enabled => true,
+  },
 })
