@@ -7,10 +7,10 @@ run_list([
   "recipe[apache2::mod_rewrite]",
   "recipe[apache2::mod_php5]",
 ])
-default_attributes(
+default_attributes({
   :php => {
     :directives => {
-      :memory_limit => "160M"
-    }
-  }
-)
+      :memory_limit => "160M",
+    },
+  },
+})

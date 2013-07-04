@@ -5,8 +5,6 @@ site 'http://community.opscode.com/api/v1'
 
 cookbook 'apache2'
 cookbook 'apt'
-cookbook 'base',
-  :path => 'cookbooks-source/base'
 cookbook 'fail2ban'
 cookbook 'git'
 cookbook 'openssh'
@@ -16,8 +14,8 @@ cookbook 'percona',
   #:git => 'https://github.com/patcon/chef-percona',
   #:ref => '68-percona-server-recipe'
 cookbook 'php'
-cookbook 'unattended-upgrades',
-  :git => "https://github.com/firstbanco/chef-unattended-upgrades"
+cookbook 'proviso',
+  :path => 'cookbooks-source/proviso'
 cookbook 'vim'
 cookbook 'yum',
   # Pending release: https://github.com/opscode-cookbooks/yum/pull/49
